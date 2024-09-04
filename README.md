@@ -5,8 +5,9 @@ Backend handles data processing and provides APIs for each chart type, while Fro
 ## Setup Instructions
 #### Backend (Django)
 1. Navigate to the backend directory:
-`cd backend
-`
+```
+cd backend
+```
 
 2. Install dependencies:
 
@@ -17,11 +18,13 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
 3. Install the required Python packages:
-```pip install django djangorestframework
+```
+pip install django djangorestframework
 ```
 
 4. Run database migrations:
-```python manage.py migrate
+```
+python manage.py migrate
 ```
 
 5. Run the Django development server
@@ -37,11 +40,14 @@ python manage.py runserver
 ```cd frontend```
 
 2. install dependencies
-``` npm install ```
+```
+ npm install
+  ```
 
 3. Run the Next.js development server:
 ```
-npm run dev```
+npm run dev
+```
 
 
 ## Libraries and Tools Used
